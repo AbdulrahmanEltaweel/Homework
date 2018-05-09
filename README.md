@@ -2,6 +2,7 @@
 #Python homework
 
 #EX1:
+
 def fibonacci1(n):
    if n==1 or n==2:
        return 1
@@ -14,9 +15,10 @@ for i in range(1,101):
 
 
 
-
 #EX12:
+
 # returns True if parameter n is a prime number, False if composite and "Neither prime, nor composite" if neither
+
 def isPrime(n):
     if n < 2: return "Neither prime, nor composite"
     for i in range(2, int(n**0.5) + 1):
