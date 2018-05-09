@@ -38,3 +38,4 @@ def nthPrime(n):
     return prime
 
 print(nthPrime(10001))
+
